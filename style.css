@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.container{width: 95%;background: #FFFFFF;
+    padding: 0px 20px;
+    margin-top: 21px;
+    border-radius: 5px;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+/* ********************* Start Header Section *************************** */
+header{
+    background: #2D25A0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 2rem;
+    width: 100%;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header-imfo {
+    margin-left: 15%;
+    margin-top: 15%;
+    color: white;
+}
+.header-title{
+    font-size: 50px;
+}
+.bunner-img{
+    width: 556px;
+    height: 438px;
+    margin-top: 20%;
+}
+.bunner-img:hover{
+    transform: scale(1.3) rotate(360deg);
+    transition: 5s;
+}
+.button{
+    background: #E02C6D;
+    font-size: 25px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.header-img img:hover{
+    transform: scale(1.2) rotate(360deg);
+    transition: 5s;
+}
+
+/* ********************* End Header Section *************************** */
+
+/* ********************* Start Player-1 Section *************************** */
+.player-blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+}
+.blog{
+    padding: 0px 25px;
+}
+.player-img img {
+    width: 100%;
+}
+/* ********************* End Player-1 Section *************************** */
+
+/* ********************* Start Player-2 Section *************************** */
+.player-blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+}
+.blog{
+    padding: 0px 25px;
+}
+.player-img img {
+    width: 100%;
+}
+/* ********************* End Player-2 Section *************************** */
+/* ********************* Start Player-4 Section *************************** */
+.player-blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+}
+.blog{
+    padding: 0px 25px;
+}
+.player-img img {
+    width: 100%;
+}
+/* ********************* End Player-4 Section *************************** */
+
+/* ********************* Start Map Section *************************** */
+
+.map iframe {
+    margin-top: 100px;
+    padding-left: 90px;
+    width: 80%;
+    height: 400px;
+}
+/* ********************* End Map Section *************************** */
+/* ********************* Start Video Section *************************** */
+
+.video-blog {
+    margin-left: 30px;
+}
+.blog iframe {
+    width: 350px;
+    height: 250px;
+    padding-left: 35px;
+    margin-top:70px
+}
+/* ********************* End Video Section *************************** */
+
+/* ********************* Start Footer Section *************************** */
+
+footer{
+    width: 483px;
+    height: 213px;
+    margin-top: 65px;
+    margin-left: 30%;
+}
+.footer_img img {
+    width: 100%;
+}
+.socla-media {
+    font-size: 30px;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+}
+/* ********************* End Footer Section *************************** */
+
+/* *********************Start Socal-Icon Section *************************** */
+.fab{
+    padding: 2px 8px;
+}
+i.fab.fa-facebook-square {
+    color: #3B5998;
+}
+
+i.fab.fa-linkedin {
+    color: #0E76A8;
+}
+
+i.fab.fa-github-square {
+    color: #03060a;
+}
+
+i.fab.fa-dribbble-square {
+    color: hsl(337, 79%, 61%);
+}
+/* *********************End Socal-Icon Section *************************** */
+
+/* *********************Start Media -Query Section *************************** */
+
+
+@media only screen and (max-width: 688px) {
+    footer{
+        margin-left: 20px;
+    }
+    .container{
+        width: 100%;
+    }
+    .player-blog, .video-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog, .blog iframe{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    header{
+        width: 111%;
+    }
+    .top-header{
+        width: 100%;
+       
+    }
+    .header{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .header-imfo{
+        flex-direction: column;
+        
+    }
+    .player-blog{
+        margin-top: 330px;
+    }
+}
+/* *********************Start Media -Query Section *************************** */
